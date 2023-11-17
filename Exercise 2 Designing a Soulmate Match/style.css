@@ -1,0 +1,65 @@
+body{
+    height: 5000px;
+    background-image: url("images/background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} 
+img{
+    flex-direction: column;
+    max-width:100px;
+    float:center;
+    padding: 25px;
+    display: flex;
+    margin:0 auto;
+} 
+h1{
+    color: red;
+    font-style: bold;
+    text-align: center;
+    font-family: Franklin Gothic, large;
+}
+h4{
+    font-family: arial, small;
+    color: white;
+    text-align: center;
+}
+div{
+    background-color: light blue;
+    padding: 25px;
+    margin: 25px; 
+    width: 500px;
+    opacity:1;
+    margin:0 auto;
+}
+button{
+    color: white;
+    background-color: red;
+    border: 1px solid darkred;
+    padding: 25px 25px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    position: sticky;
+    top: 20px;
+}
+button:hover{
+    color: black;
+    background-color: pink;
+    cursor: pointer;
+}
+p{
+    color:black;
+    font-style: bold;
+    text-align: left;
+    font-family: arial, medium;
+    text-align: center;
+}
+footer{
+    color: black
+    text-align:center;
+    margin:40px;
+    border-top:1px solid black;
+    padding:10px;
+}

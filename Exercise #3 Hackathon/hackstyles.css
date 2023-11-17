@@ -1,0 +1,53 @@
+body{
+    background-color: purple;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin:100px auto;
+    background-color: goldenrod;
+    border: 1px solid ghostwhite;
+    padding: 75px;
+    border-radius: 50px;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    color: darkgreen;
+}
+
+input{
+    display: block;
+    padding: 20px;
+    border: 1px solid ghostwhite;
+}
+
+button[type="submit"]{
+    padding: 20px;
+    background-color: darkgreen;
+    color: gold;
+    border: 1px solid green;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+h1{
+    background-color: darkgreen;
+    color: gold;
+    border-radius: 20px;
+    padding: 7px;
+    align-items: center;
+}
+
+h2{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+small{
+    color:deeppink;
+}

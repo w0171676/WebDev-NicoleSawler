@@ -1,0 +1,59 @@
+nav{
+    background-color: black;
+    padding: 10px;
+}
+/* Add some basic styling to the navigation bar */
+nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: center;
+    text-align:  center;
+}
+/* Style the navigation bar buttons */
+nav ul li {
+    display:inline;
+    position: center auto;
+    color: grey!important;
+    text-align: center;
+    padding: 20px;
+}
+nav ul li a {
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 20px;
+    color: grey;
+}
+.logo{
+    position: center;
+    padding: 10px;
+}
+.Body-Title{
+    text-align: center;
+    background-color: white;
+    
+}
+.Body-Title h3 a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;    
+}
+.ContainerA{
+    text-align: center;
+    padding: 200px auto;
+    background-color: black;
+    width: 100%;
+    text-decoration: none;
+    color:white !important;
+    height:450px;
+}
+.ContainerA h3 {
+    color:blue!important;
+    text-decoration: none;
+}
+.Container2{
+    padding: 2px auto;
+    border-width: auto;
+    background-color: white;
+    
+}

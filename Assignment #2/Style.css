@@ -1,0 +1,203 @@
+/*This is full screen view*/
+.main{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.responsive-img{
+    max-width: 100%;
+    margin: 5px auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    background-size: cover;
+    background-position: center;
+}
+blockquote{
+    padding: 25px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    border-left: 5px solid rgb(92, 22, 65);
+    background-color:rgb(208, 154, 187);
+    margin: 40px;
+    max-width: 100%;
+}
+.pad{
+    height: 50px;
+    background: rgb(92, 22, 65);
+}
+
+.title {
+    padding-top : 3%;
+    text-align: center;
+    font: size 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkblue;
+}
+.subtitle {
+    padding-top: 5%;
+    margin: -15px 0px 35px 0px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+ } 
+.quote {
+    font-weight: bold;
+    font-size: medium;
+    margin: 35px 0px 15px 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.source-quote {
+    font-size: small;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.timeline{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(152, 20, 20);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    border-top: 3px solid rgb(227, 202, 202);
+    padding: 10px;
+    border-bottom: 3px solid rgb(227, 202, 202);
+}
+.collapsible{
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 100%;
+    margin: 20px;
+}
+li{
+    list-style: none;
+    border-bottom: 3px solid rgb(227, 202, 202);
+}
+.date-event, .description{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+.collapsible-body{
+    background-color: lightgrey;
+    background-position: center;
+    background-size: cover;
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 15px;
+}
+.msg-event {
+    text-align: justify;
+    text-align-last: center;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.fun-facts{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(152, 20, 20);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    border-top: 3px solid rgb(227, 202, 202);
+    padding: 10px;
+    border-bottom: 3px solid rgb(227, 202, 202);
+}
+.container1{
+    text-align:center;
+}
+.container3{
+    background-color:lightblue;
+}
+.link{
+    font-size:small;
+    color: black;
+    padding-left: 40px;
+}
+.link:hover{
+    color: blue;
+}
+.page-footer {
+    height: 50px;
+}
+.footer-link{
+    text-align:center;
+}
+.footer-copyright{
+    text-align: center;
+    height: 50px;
+    background: rgb(92, 22, 65);
+}
+.femme-link{
+    font-weight: bold;
+    color: white!important;
+}
+.femme-link:hover{
+    color:blue!important;
+    font-weight: bold;
+}
+/*This is tablet view*/
+@media screen and (max-width:700px){
+
+    .main{
+        background-color: lightgrey;
+        margin: 0;
+        padding: 20px;
+        text-align: left;
+        font-size: 20px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-color:rgb(241, 149, 241)!important;
+        background-size: cover;
+        background-position: bottom center;
+    }
+    blockquote{
+        background-image: url("images/c.jpg")!important;
+        background-size: cover!important;
+        background-position: center!important;
+        padding: 25px;
+        font-family:'Times New Roman', Times, serif;
+    }  
+    .title {
+        padding-top : 3%;
+        text-align: center;
+        font: size 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(42, 6, 42);
+    }  
+    .pad, .footer-copyright {
+        text-align: center;
+        height: 50px;
+        background: rgb(194, 215, 131)!important;
+    }
+    .collapsible-body {
+        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-width: 100%;
+        margin: 40px;  
+        background-image: url("images/bt.jpg")!important;
+        background-size: cover;
+        background-position: center;
+    }
+    .femme-link{
+        color: purple!important;
+    }
+    .femme-link:hover{
+        color:blue!important;
+        font-weight: bold;
+    }
+    
+}
+/*rgb(241, 149, 241)*/

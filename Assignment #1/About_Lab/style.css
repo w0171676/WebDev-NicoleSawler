@@ -1,0 +1,51 @@
+header{
+    text-align:center;
+}
+h1{
+    color: lightblue;
+    font-style: bold;
+    text-align: center;
+    font-family: Franklin Gothic, large;
+}
+h4{
+    font-family: arial, small;
+    color: lightcoral;
+    text-align: center;
+}  
+body{
+    background-image: url("images/tree.jpg");
+    background-size:cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+}  
+h2{
+    color: pink;
+    font-style: italic;
+    text-align: left;
+    font-family:Times New Roman, medium;
+}
+p{
+    color:aquamarine;
+    font-style: bold;
+    text-align: left;
+    font-family: arial, medium;
+}
+img{
+    flex-direction: column;
+    max-width:100px;
+    float:center;
+    padding: 25px;
+}
+a{
+    color:rgb(255, 127, 229);
+    max-width: 100px;
+    float: center;
+    padding: 25px;
+}
+footer{
+    color: white;
+    text-align:center;
+    margin:40px;
+    border-top:1px solid white;
+    padding:10px;
+}
